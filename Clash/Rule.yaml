@@ -10538,6 +10538,9 @@
 - IP-CIDR6,2a0b:b582::/48,Domestic
 - IP-CIDR6,2a0b:b583::/48,Domestic
 
+# > Tencent
+- IP-CIDR,182.254.116.0/24,Domestic
+
 - DOMAIN-SUFFIX,12306.cn,Domestic
 - DOMAIN-SUFFIX,12306.com,Domestic
 - DOMAIN-SUFFIX,126.net,Domestic
