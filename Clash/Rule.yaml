@@ -8425,7 +8425,8 @@
 - DOMAIN-SUFFIX,dl.google.com,DIRECT
 
 # > Steam
-# - DOMAIN-SUFFIX,steamcontent.com,DIRECT
+# - USER-AGENT,Steam*,DIRECT
+- DOMAIN-SUFFIX,steamcontent.com,DIRECT
 
 # > Windows
 - DOMAIN-SUFFIX,windows.com,DIRECT
