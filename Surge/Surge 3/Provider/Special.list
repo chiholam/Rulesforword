@@ -30,6 +30,7 @@ PROCESS-NAME,ss-local
 
 # > Steam
 USER-AGENT,Steam*
+DOMAIN-SUFFIX,pinyuncloud.com
 DOMAIN-SUFFIX,steamcontent.com
 
 # > UUBooster

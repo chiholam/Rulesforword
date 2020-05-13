@@ -8426,6 +8426,7 @@
 
 # > Steam
 # - USER-AGENT,Steam*,DIRECT
+- DOMAIN-SUFFIX,pinyuncloud.com,DIRECT
 - DOMAIN-SUFFIX,steamcontent.com,DIRECT
 
 # > Windows
