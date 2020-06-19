@@ -8535,7 +8535,7 @@
 # > Apple News and Apple Map TOMTOM Version
 # - USER-AGENT,AppleNews*,GlobalTV
 # - USER-AGENT,com.apple.news*,GlobalTV
-- DOMAIN,gspe1-ssl.ls.apple.com,GlobalTV
+# - DOMAIN,gspe1-ssl.ls.apple.com,GlobalTV
 # - USER-AGENT,News*,GlobalTV
 # - DOMAIN,apple.comscoreresearch.com,GlobalTV
 # - DOMAIN,gateway.icloud.com,GlobalTV
