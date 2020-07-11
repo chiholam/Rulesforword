@@ -9,7 +9,7 @@ experimental:
 dns:
   enable: true
   ipv6: false
-  listen: 127.0.0.1:5353
+  listen: 127.0.0.1:53
   enhanced-mode: fake-ip
   default-nameserver:
     - 119.29.29.29
@@ -18,9 +18,11 @@ dns:
   fake-ip-filter:
     - '*.lan'
     - localhost.ptlogin2.qq.com
-  fallback:
-    - 'https://dns.alidns.com/dns-query'
-    - 'https://1.1.1.1/dns-query'
+  nameserver:
+    - https://dns.alidns.com/dns-query
+    - https://1.1.1.1/dns-query
     - tls://dns.adguard.com:853
+  fallback:
+    - tcp://1.1.1.1
   # experimental:
   #   interface-name: WLAN
