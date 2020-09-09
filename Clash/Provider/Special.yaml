@@ -3,7 +3,7 @@ payload:
   - DOMAIN-SUFFIX,dler.cloud
 
   # > Apple CDN
-  - PROCESS-NAME,storedownloadd
+  # - PROCESS-NAME,storedownloadd
   # - User-Agent,com.apple.appstored*
   - DOMAIN,aod.itunes.apple.com
   - DOMAIN,api.smoot.apple.cn
@@ -29,8 +29,8 @@ payload:
   - DOMAIN-SUFFIX,msftconnecttest.com
 
   # > Proxy plugin
-  - PROCESS-NAME,v2ray
-  - PROCESS-NAME,ss-local
+  # - PROCESS-NAME,v2ray
+  # - PROCESS-NAME,ss-local
 
   # > Steam
   # - User-Agent,Steam*
@@ -38,7 +38,7 @@ payload:
   - DOMAIN-SUFFIX,steamcontent.com
 
   # > UUBooster
-  - PROCESS-NAME,UUBooster
+  # - PROCESS-NAME,UUBooster
 
   # > Windows
   - DOMAIN-SUFFIX,windows.com
@@ -50,15 +50,15 @@ payload:
   - DOMAIN-SUFFIX,xunlei.com
 
   # > Download
-  - PROCESS-NAME,aria2c
-  - PROCESS-NAME,fdm
-  - PROCESS-NAME,Folx
-  - PROCESS-NAME,NetTransport
-  - PROCESS-NAME,Thunder
-  - PROCESS-NAME,Transmission
-  - PROCESS-NAME,uTorrent
-  - PROCESS-NAME,WebTorrent
-  - PROCESS-NAME,WebTorrent Helper
+  # - PROCESS-NAME,aria2c
+  # - PROCESS-NAME,fdm
+  # - PROCESS-NAME,Folx
+  # - PROCESS-NAME,NetTransport
+  # - PROCESS-NAME,Thunder
+  # - PROCESS-NAME,Transmission
+  # - PROCESS-NAME,uTorrent
+  # - PROCESS-NAME,WebTorrent
+  # - PROCESS-NAME,WebTorrent Helper
 
   # > Private Tracker
   - DOMAIN-SUFFIX,awesome-hd.me

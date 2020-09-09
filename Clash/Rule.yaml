@@ -50,6 +50,7 @@
 
 - RULE-SET,PROXY,Proxy
 - RULE-SET,Domestic,Domestic
+- RULE-SET,Domestic IPs,Domestic
 - RULE-SET,Apple,Apple
 
 - GEOIP,CN,Domestic
@@ -58,14 +59,6 @@
 script:
   code: |
     def main(ctx, metadata):
-        ip = ctx.resolve_ip(metadata["host"])
-        if ip == "":
-          return "DIRECT"
-
-        code = ctx.geoip(ip)
-        if code == "CN":
-          return "Domestic"
-
         port_list = [21, 22, 23, 53, 80, 123, 143, 194, 443, 465, 587, 853, 993, 995, 998, 2052, 2053, 2082, 2083, 2086, 2095, 2096, 5222, 5228, 5229, 5230, 8080, 8443, 8880, 8888, 8889]
         ruleset_action = {"Reject": "AdBlock",
             "Special": "DIRECT",
@@ -111,6 +104,7 @@ script:
             "Microsoft": "Microsoft",
             "PROXY": "Proxy",
             "Domestic": "Domestic",
+            "Domestic IPs": "Domestic",
             "Apple": "Apple"
             }
         port = int(metadata["dst_port"])
@@ -121,6 +115,18 @@ script:
         for rule_name in ctx.rule_providers.keys():
             if ctx.rule_providers[rule_name].match(metadata):
                 return ruleset_action[rule_name]
+
+        ip = ctx.resolve_ip(metadata["host"])
+
+        if ip == "":
+          return "DIRECT"
+
+        code = ctx.geoip(ip)
+        if code == "CN":
+          return "Domestic"
+
+        if code == "LAN":
+          return "DIRECT"
 
         return "Others"
 
@@ -406,4 +412,10 @@ rule-providers:
     behavior: classical
     url: 'https://git.dler.io/lhie1/Rules/master/Clash/Provider/Apple.yaml'
     path: ./Rules/Apple
+    interval: 86400
+  Domestic IPs:
+    type: http
+    behavior: ipcidr
+    url: 'https://git.dler.io/lhie1/Rules/master/Clash/Provider/Domestic%20IPs.yaml'
+    path: ./Rules/Domestic_IPs
     interval: 86400
