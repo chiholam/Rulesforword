@@ -18,7 +18,12 @@ dns:
     - 1.2.4.8
   fake-ip-filter:
     - '*.lan'
+    - '*.edu.cn'
     - localhost.ptlogin2.qq.com
+    - '*.*.*.*.srv.nintendo.net'
+    - '*.*.*.stun.playstation.net'
+    - 'xbox.*.microsoft.com'
+    - '*.*.*.xboxlive.com'
   nameserver:
     - 'https://dns.alidns.com/dns-query'
     - 'https://1.1.1.1/dns-query'
