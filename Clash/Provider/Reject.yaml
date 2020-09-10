@@ -8262,8 +8262,6 @@ payload:
   #  - URL-REGEX,^http:\/\/c\.tieba\.baidu\.com\/c\/s\/splashSchedule$
 
   # > Bilibili
-  - DOMAIN,cm.bilibili.com
-  - DOMAIN,data.bilibili.com
   - DOMAIN,miniapp.bilibili.com
   - DOMAIN,thirdparty.biliapi.com
   #  - URL-REGEX,https://app.bilibili.com/x/v2/param
