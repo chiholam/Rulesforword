@@ -1,7 +1,4 @@
 payload:
-  # > RRYS
-  - DOMAIN-SUFFIX,p4pfile.com
-  - DOMAIN-SUFFIX,zmzfile.com
   # > Dler Cloud
   - DOMAIN-SUFFIX,dler.cloud
 
