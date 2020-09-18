@@ -105,7 +105,7 @@ script:
             "PayPal": "PayPal",
             "Microsoft": "Microsoft",
             "PROXY": "Proxy",
-            "Apple": "Apple"
+            "Apple": "Apple",
             "Domestic": "Domestic",
             "Domestic IPs": "Domestic"
             }
