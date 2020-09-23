@@ -24,6 +24,8 @@ dns:
     - '*.*.stun.playstation.net'
     - xbox.*.*.microsoft.com
     - '*.*.xboxlive.com'
+    - '*.msftncsi.com'
+    - 'www.msftconnecttest.com'
   nameserver:
     - 'https://dns.alidns.com/dns-query'
     - 'https://1.1.1.1/dns-query'
