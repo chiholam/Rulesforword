@@ -23,17 +23,17 @@ payload:
   # - User-Agent,RemotePlay*
 
   # > TeamViewer
-  - IP-CIDR,185.188.32.0/24
-  - IP-CIDR,185.188.33.0/24
-  - IP-CIDR,185.188.34.0/24
-  - IP-CIDR,185.188.35.0/24
-  - IP-CIDR,2a0b:b580::/48
-  - IP-CIDR,2a0b:b581::/48
-  - IP-CIDR,2a0b:b582::/48
-  - IP-CIDR,2a0b:b583::/48
+  - IP-CIDR,185.188.32.0/24,no-resolve
+  - IP-CIDR,185.188.33.0/24,no-resolve
+  - IP-CIDR,185.188.34.0/24,no-resolve
+  - IP-CIDR,185.188.35.0/24,no-resolve
+  - IP-CIDR,2a0b:b580::/48,no-resolve
+  - IP-CIDR,2a0b:b581::/48,no-resolve
+  - IP-CIDR,2a0b:b582::/48,no-resolve
+  - IP-CIDR,2a0b:b583::/48,no-resolve
 
   # > Tencent
-  - IP-CIDR,182.254.116.0/24
+  - IP-CIDR,182.254.116.0/24,no-resolve
 
   - DOMAIN-SUFFIX,12306.cn
   - DOMAIN-SUFFIX,12306.com
@@ -278,7 +278,7 @@ payload:
   - DOMAIN-SUFFIX,zimuzu.tv
   - DOMAIN-SUFFIX,zmz002.com
 
-  - IP-CIDR,1.255.62.0/24
+  - IP-CIDR,1.255.62.0/24,no-resolve
 
   # > CN
   - DOMAIN-SUFFIX,cn
