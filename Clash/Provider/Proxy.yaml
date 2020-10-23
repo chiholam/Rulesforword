@@ -649,6 +649,7 @@ payload:
   - DOMAIN-SUFFIX,gmail.com
   - DOMAIN-SUFFIX,gosetsuden.jp
   - DOMAIN-SUFFIX,gwtproject.org
+  - DOMAIN-SUFFIX,hackmd.io
   - DOMAIN-SUFFIX,heroku.com
   - DOMAIN-SUFFIX,html5rocks.com
   - DOMAIN-SUFFIX,keyhole.com
