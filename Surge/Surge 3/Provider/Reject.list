@@ -2956,7 +2956,6 @@ DOMAIN-SUFFIX,downloada.dewmobile.net
 DOMAIN-SUFFIX,downloadb.dewmobile.net
 DOMAIN-SUFFIX,downmobile.kugou.com
 DOMAIN-SUFFIX,dp.559.cc
-DOMAIN-SUFFIX,dp3.qq.com
 DOMAIN-SUFFIX,dpm.demdex.net
 DOMAIN-SUFFIX,dps.499.cn
 DOMAIN-SUFFIX,dps.shouji56.com
@@ -8322,6 +8321,7 @@ URL-REGEX,https?://(a?d|sax)\d.sina.com
 URL-REGEX,https?://d\d.sinaimg.cn
 URL-REGEX,https?://dl.app.gtja.com/.+\d+.jpg$
 URL-REGEX,https?://impservice.+?youdao.com
+URL-REGEX,https?://mi.gdt.qq.com/gdt_mview.fcg
 URL-REGEX,https?://notice.send-anywhere.com/banner
 URL-REGEX,https?://sax\w?.sina.cn
 URL-REGEX,https?://sax\w?.sina.com.cn
