@@ -1,0 +1,6 @@
+#!name=All Capture
+#!desc=Capture the request body and save permanently.
+#!system=ios
+
+[MITM]
+hostname = *
