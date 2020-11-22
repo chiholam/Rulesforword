@@ -1,0 +1,19 @@
+on: push
+name: Auto Sync
+jobs:
+  run:
+    name: Run
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout source codes
+      uses: actions/checkout@v1
+    - name: Mirror Github to Gitee with white list
+      uses: lhie1/Rules@master
+      with:
+        src: github/lhie1
+        dst: gitee/lhie1
+        dst_key: ${{ secrets.GITEE_KEY }}
+        dst_token:  ${{ secrets.GITEE_TOKEN }}
+        white_list: 'Rules'
+        force_update: true
+        debug: false
