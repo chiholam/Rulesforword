@@ -1,0 +1,4 @@
+#!name=IPv6
+
+[General]
+ipv6 = true
