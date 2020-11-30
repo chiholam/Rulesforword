@@ -3,4 +3,5 @@
 #!system=ios
 
 [General]
+ipv6 = true
 wifi-assist = true
