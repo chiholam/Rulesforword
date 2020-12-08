@@ -1,8 +1,9 @@
-FROM alpine
+FROM alpine:3.10
 
-RUN apk add --no-cache git openssh-client bash jq curl&& \
-  echo "StrictHostKeyChecking no" >> /etc/ssh/ssh_config
+RUN apk update && apk upgrade && \
+    apk add --no-cache git openssh
 
-ADD *.sh /
+COPY mirror.sh /mirror.sh
+COPY setup-ssh.sh /setup-ssh.sh
 
-ENTRYPOINT ["/entrypoint.sh"]
+ENTRYPOINT ["/mirror.sh"]
