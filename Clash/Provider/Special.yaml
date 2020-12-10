@@ -58,6 +58,7 @@ payload:
   - PROCESS-NAME,fdm
   - PROCESS-NAME,Folx
   - PROCESS-NAME,NetTransport
+  - PROCESS-NAME,qbittorrent
   - PROCESS-NAME,Thunder
   - PROCESS-NAME,Transmission
   - PROCESS-NAME,uTorrent
