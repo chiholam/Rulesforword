@@ -8279,7 +8279,7 @@ payload:
   # - URL-REGEX,https?://sax\w?.sina.com.cn
   # - URL-REGEX,https?://server-\w+.imrworldwide.com
   # - URL-REGEX,https?://www.bldimg.com/(background|splash)/.+.png$
-  - 
+
   - IP-CIDR,39.107.15.115/32
   - IP-CIDR,47.89.59.182/32
   - IP-CIDR,103.49.209.27/32
