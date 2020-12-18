@@ -1,4 +1,4 @@
-#!name=DNSPod DoH
+#!name=Ali DoH
 #!desc=Enable DNS over HTTPS (DoH) with Ali public DNS.
 
 [General]
