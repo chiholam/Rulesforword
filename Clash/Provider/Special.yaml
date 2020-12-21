@@ -52,7 +52,7 @@ payload:
   - DOMAIN-SUFFIX,windows.com
   - DOMAIN-SUFFIX,windows.net
   - DOMAIN-SUFFIX,windowsupdate.com
-  - DOMAIN-SUFFIX,xbox.com,Microsoft
+  - DOMAIN-SUFFIX,xbox.com
   - DOMAIN-SUFFIX,xboxlive.com
 
   # > Xunlei
