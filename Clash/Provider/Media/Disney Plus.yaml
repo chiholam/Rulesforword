@@ -6,6 +6,8 @@ payload:
   - DOMAIN-SUFFIX,bamgrid.com
   - DOMAIN-SUFFIX,braze.com
   - DOMAIN-SUFFIX,cdn.optimizely.com
+  - DOMAIN-SUFFIX,cdn.registerdisney.go.com
+  - DOMAIN-SUFFIX,cws.conviva.com
   - DOMAIN-SUFFIX,d9.flashtalking.com
   - DOMAIN-SUFFIX,disney.demdex.net
   - DOMAIN-SUFFIX,disney.my.sentry.io
@@ -16,4 +18,4 @@ payload:
   - DOMAIN-SUFFIX,disney-portal.my.onetrust.com
   - DOMAIN-SUFFIX,dssott.com
   - DOMAIN-SUFFIX,execute-api.us-east-1.amazonaws.com
-  - DOMAIN-SUFFIX,registerdisney.go.com
+  - DOMAIN-SUFFIX,js-agent.newrelic.com
